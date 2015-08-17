@@ -1,8 +1,19 @@
+# #!/usr/bin/ruby
+
+# def test(a1="Ruby", a2="Perl")
+#    puts "The programming language is #{a1}"
+#    puts "The programming language is #{a2}"
+# end
+# test "C", "C++"
+# test
+
 #!/usr/bin/ruby
 
-def test(a1="Ruby", a2="Perl")
-   puts "The programming language is #{a1}"
-   puts "The programming language is #{a2}"
+def test
+   i = 100
+   j = 200
+   k = 300
+return i, j, k
 end
-test "C", "C++"
-test
+var = test
+puts var
